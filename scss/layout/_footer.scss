@@ -1,0 +1,154 @@
+.footer {
+    background-color: $dark-green;
+    position: relative;
+    z-index: 0;
+}
+.footer__container {
+    padding-top: 144px;
+    display: flex;
+    padding-bottom: 64px;
+    justify-content: space-between;
+}
+.footer__content {
+}
+.footer__location {
+    display: flex;
+    width: 100%;
+    max-width: 390px;
+    margin-bottom: 16px;
+}
+.footer__location i{
+    font-size: 13px;
+    color: $white-color;
+    margin-right: 16px;
+}
+.footer__location__description {
+    color: $white-color;
+    font-size: 14px;
+}
+.footer__call {
+    display: flex;
+    margin-bottom: 16px;
+}
+.footer__call i{
+    font-size: 13px;
+    color: $white-color;
+    margin-right: 16px;
+}
+.footer__call__text{
+    color: $white-color;
+    font-size: 1.4rem;
+}
+.footer__mail {
+    display: flex;
+}
+.footer__mail i{
+    font-size: 13px;
+    color: $white-color;
+    margin-right: 16px;
+}
+.footer__mail__text {
+    color: $white-color;
+    font-size: 1.4rem;
+}
+.footer__list__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer__list {
+    display: flex;
+    flex-direction: column;
+    margin-right: 150px;
+}
+.footer__item {
+    font-size: 1.4rem;
+    margin-bottom: 12px;
+}
+.footer__item a{
+    color: $white-color;
+    transition: 0.3s;
+}
+.footer__item a:hover{
+    text-decoration: underline;
+}
+.footer__links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footer__link {
+    display: flex;
+    align-items: center;
+}
+.facebook{
+    margin-right: 12px;
+    color: $white-color;
+    font-size: 14px;
+    border: 1px solid #DFE4F0;
+    padding: 8px 12px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.facebook:hover{
+    color: $pink-color;
+    border-color: $pink-color;
+}
+.twitter{
+    color: $white-color;
+    margin-right: 12px;
+    font-size: 20px;
+    border: 1px solid #DFE4F0;
+    padding: 5.5px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.twitter:hover{
+    color: $pink-color;
+    border-color: $pink-color;
+}
+.instagram{
+    color: $white-color;
+    font-size: 20px;
+    border: 1px solid #DFE4F0;
+    padding: 8px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.instagram:hover{
+    color: $pink-color;
+    border-color: $pink-color;
+}
+.footer__bottom {
+    color: $white-color;
+    font-size: 12px;
+    line-height: 1.8rem;
+}
+
+@media screen and (max-width: 1000px){
+    .footer__container{
+        flex-direction: column;
+    }
+    .footer__mail{
+        margin-bottom: 41px;
+    }
+    .footer__list__wrapper{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .footer__item{
+        margin-bottom: 16px;
+    }
+    .footer__item:last-child{
+        margin-bottom: 24px;
+    }
+    .footer__links{
+        align-items: center;
+    }
+    .footer__link{
+        margin-bottom: 24px;
+    }
+}
